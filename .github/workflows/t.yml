@@ -1,0 +1,7 @@
+name: CI test
+on: [push]
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hola
